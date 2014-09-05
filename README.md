@@ -1,6 +1,13 @@
 hmsearch-python
 ===============
 
+*NOTE: this implementation will be dropped, and replaced by a Python
+API to the C++ library https://github.com/commonsmachinery/hmsearch
+instead.*
+
+Old info
+========
+
 This is an implementation of the hamming distance algorithm HmSearch
 using MongoDB for storing the hashes and indices.
 
@@ -49,10 +56,3 @@ Distributed under an MIT license, please see LICENSE in the top dir.
 
 Contact: dev@commonsmachinery.se
 
-
-Credits
--------
-
-HmSearch was created by Xiaoyang Zhang, Jianbin Qin, Wei Wang, Yifang
-Sun and Jiaheng Lu.  For details on the algorithm and contact emails,
-please see the copy of their paper in the `doc` directory.
